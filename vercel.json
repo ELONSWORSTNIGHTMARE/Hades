@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "builds": [
+    {
+      "src": "src/hello.ts",
+      "use": "@vercel/node"
+    }
+  ],
+  "buildCommand": "pnpm typecheck"
+}
